@@ -1,0 +1,427 @@
+Tableau -
+
+Measures & Dimensions
+
+EDA (Exploratory Data Analysis) & Pre-processing
+
+Only maths function that is possible on dimensions is COUNT
+
+No. of columns = 24
+No. of rows = 51290
+
+5 columns - Measures (Sales, Quantity, Discount, Profit, Shipping cost)
+19 columns - Dimensions
+
+Visualization - combination of measures & dimensions
+e.g. Sales by State, Profit by Category, Quantity by Segment etc.
+
+Dimensions - Find out unique values from Categorical dimensions
+
+Measures - Find out which measures use fraction values (float) and which not (integer)
+
+Workbook
+
+Three major components of Tableau -
+1. Worksheet
+2. Dashboard
+3. Story
+
+How to join multiple tables in Tableau -
+
+Before 2020 - JOIN
+Data is joined from tables before visualization
+Types of Joins - 
+1. Equi join (Inner)
+2. Left outer
+3. Right outer
+4. Full outer
+
+After 2020 - Relationship
+Data is joined only after visualization starts
+
+Dimensions are displayed in BLUE color while measures are displayed in GREEN color.
+
+Three types of sorting on columns -
+1. Ascending
+2. Descending
+3. Default (Data source)
+
+Tableau visualization page is divided into 9 sections -
+1. Dimensions
+2. Measures
+3. Pages
+4. Filter
+5. Marks
+6. Column
+7. Row
+8. Canvas
+9. Show Me
+
+
+There are 4 types of layout -
+1. Standard
+2. Fit width
+3. Fit height
+4. Entire view
+
+Superstore_1
+
+(Two dimensional Analysis)
+Profit by Sub-category & Segment
+Shipping Cost by Region & Segment
+Quantity by Region & Category
+Profit by Region & Ship Mode
+
+Three dimensional Analysis
+1. Shipping Cost by Market, Country & Order Priority
+2. Sales by Market, Country & Segment
+3. Quantity by Market, Country & Ship Mode
+4. Profit by Market, Country & Category
+
+Highlight Table
+1. Quantity by Sub-category (Highlight table)
+2. Shipping Cost by Region (Highlight table)
+3. Profit by Market (Highlight table)
+4. Profit by Region (Highlight table)
+5. Profit by Sub-category & Segment (Highlight table)
+ 
+Profit by Sub-category & Segment (Highlight table)
+Profit by Region & Segment (Highlight table)
+Profit by Region & Category (Highlight table)
+Profit by Region & Ship Mode (Highlight table)
+
+COUNT vs COUNTD
+
+Highlight all countries having no. of cities 100 or above.
+
+Find out no. of products (product ID field) for region and Category using Highlight table.
+
+Colors based on dimension 
+is called Discrete Colors
+
+Colors based on measures
+is called Continuous Colors
+
+Profit % by Category
+Quantity % by Segment
+Shipping cost % by Ship Mode
+Profit % by Market
+
+Bubble chart
+
+Shipping Cost by Sub-category (Bubble chart)
+Quantity by Sub-category (Bubble chart)
+Sales by Region (Bubble chart)
+Quantity by Region (Bubble chart)
+Profit by Region (Bubble chart)
+Shipping Cost by Region (Bubble chart)
+
+No. of Orders by Sub-category (Bubble chart)
+No. of Orders by Region (Bubble chart)
+No. of Products by Sub-category (Bubble chart)
+No. of Products by Region (Bubble chart)
+No. of Customers by Sub-category (Bubble chart)
+No. of Customers by Region (Bubble chart)
+
+
+Three types of bar chart -
+1. Normal
+2. Side by side - when no. of values in both dimensions are fewer then this chart is suitable
+Total bars created = no. of values in dimension 1 * no. of values in dimension 2
+
+3. Stacked bar - when no. of values in either dimension are high then use that dimension to create bar chart first and then use second dimension
+e.g. Sub-category has 17 values & Segment has 3 values so start bar chart with Sub-category and then use Segment
+Type of chart - 100% stacked bar chart to show % values on the bar
+
+
+Quantity by Sub-category (Bar chart)
+Shipping cost by Sub-category (Bar chart)
+Quantity by Region (Bar chart)
+Shipping cost by Region (Bar chart)
+Sales by Region (Bar chart)
+Profit by Sub-category (Bar chart)
+
+Using bar chart, identify
+sub-categories having quantity
+greater than 10000.
+
+Using bar chart, identify
+sub-categories having 
+Shipping cost 
+greater than 100000.
+
+Using bar chart, identify
+regions having quantity
+less than 15000.
+
+Using bar chart, identify
+regions having 
+Shipping cost 
+less than 50000.
+
+Side by Side charts -
+
+1. Sales by Segment & Order Priority (Side by Side)
+2. Sales by Order Priority & Ship Mode (Side by Side)
+3. Profit by Segment & Category (Side by Side)
+4. Quantity by Ship Mode & Segment (Side by Side)
+5. Shipping cost by Ship Mode & Category (Side by Side)
+6. Profit by Order Priority & Ship Mode (Side by Side)
+
+100% Stacked bar chart -
+1. Sales % by Segment & Order Priority (Stacked bar)
+2. Sales % by Order Priority & Ship Mode (Stacked bar)
+3. Profit % by Sub-category & Segment (Stacked bar)
+4. Profit % by Region & Segment (Stacked bar)
+5. Profit % by Region & Category (Stacked bar)
+6. Profit % by Sub-category & Ship Mode (Stacked bar)
+
+Profit by Category & Segment (Side by side circle)
+Quantity by Segment & Ship Mode (Side by side circle)
+
+
+Line charts - 
+
+1. Discrete line (Blue)
+2. Continuous line (Green)
+
+Year
+Quarter
+Month
+Week
+Day
+
+Always drag date field on column
+
+Monthly no. of products 
+(Discrete line) 
+
+Put Ship Mode on Color
+
+Area chart is a variation
+of line chart except the
+shading below the line.
+
+
+
+
+Highlight all values having sales > 300k
+
+Sales by Sub-category & Ship Mode (Heatmap)
+Quantity by Region & Category (Heatmap)
+Profit by Region & Category (Heatmap)
+Profit by Region & Order Priority (Heatmap)
+
+Scatter plot techniques -
+
+1. Without aggregation
+Sales vs Profit Scatter plot 
+by Segment
+Sales vs Profit Scatter plot 
+by Order Priority
+
+
+2. With aggregation
+
+Histogram - 
+Bin size = 500
+Bin 1 = 0 to 499
+There are 44538 (86%) records
+in the database having
+sales value between 0 to 499
+
+Bin 2 = 500 to 999
+There are 4126 (8%) records
+in the database having
+sales value between 500 to 999
+
+New project - Connect to global superstore Excel file
+
+Topics - Filters, Parameters, Calculated fields
+
+Filters -
+1. Data source
+2. Dimension 
+3. Measures
+4. Date
+5. Top/Bottom
+6. Context
+
+Calculated field -
+1. Profit Ratio = total profit / total sales
+2. Average sales
+3. Average profit
+4. Average quantity
+5. Average shipping cost
+6. Average discount
+7. No. of customers
+8. No. of products
+9. No. of orders
+10. Avg sales per order
+11. Avg profit per order
+12. Avg quantity per order
+13. Avg discount per order
+
+
+1.Display bar chart of profit ratio
+2.Build treemap of no. of customers 
+by country and filter it by Market
+3. Build line chart of monthly no. of 
+orders and filter it Order Priority
+4. Build bubble chart of no. of products
+by sub-category
+5. Build scatter plot of average sales
+vs average profit (remove aggregation)
+
+
+Parameters -
+
+Sets - Set can work as filter
+with 2 options - IN & OUT
+
+Create combined sets
+to display top 5 & bottom 5 
+records on same page
+
+Analytics
+1. Constant line
+Identify the regions having 
+quantity between 10k to 20k
+
+Identify the regions having
+sales above 1200k and profit
+above 150k
+
+
+2. Average line
+
+3. Forecast
+4. Cluster
+5. Trend line
+
+create scatter plot of profit vs
+shipping cost. Then apply filter
+by segment and find R squre & 
+line equation for each segment
+
+Table calculations
+1. Running total
+2. Difference
+3. % difference
+4. Rank
+5. % of total
+6. Moving average
+
+
+
+Create ranking report of sub-category
+on sales by year. Add ship mode as 
+filter.
+
+Data blending- 
+
+1. Primary data source (Blue)
+2. Secondary data source (Orange)
+
+Coffeechain_blending
+
+Advanced charts 
+1. Word cloud
+2. Sparklines
+3. Motion chart
+
+Open Tableau Public, connect to Sample 
+Coffeechain data and solve following questions -
+
+6. Build tree map of total expenses by 
+state and group it by market.
+Find out which market has lowest expenses.
+
+7. Build solid geo map of actual profit by 
+state and find if there are any losses.
+
+8. Build heat map of actual profit by market & 
+product and find no. of losses.
+
+9. Create continuous monthly area chart 
+of marketing. Show lables for min & max values.
+
+10. Create histogram of Inventory and divide 
+it by Market size.
+
+11. Build heat map of inventory by state 
+& product and find the highest +ve and -ve value combination.
+
+CoffeeChain_Exercises
+
+Dashboard
+
+Open Tableau project - superstore_4
+
+Build following charts and create dashboards
+
+1. four pie charts by Order Priority and 
+Sales, Profit, Quantity & Shipping cost
+
+2. 
+a) Side by side bar chart (vertical) using
+Ship Mode & Segment and average profit
+b) continuous monthly profit Ratio area chart
+
+3. 
+a) scatter plot of shipping cost vs profit
+(remove aggregation)
+b) sub-category Bubble chart using
+no. of orders 
+
+
+
+
+
+https://en.m.wikipedia.org/wiki/ Texas
+https://en.m.wikipedia.org/wiki/ California
+
+
+US states map
+
+1) https://www.history.com/search?q= California
+2) https://www.cia.gov/search/?q= California
+
+Country map 
+https://www.britannica.com/search?query= Texas
+
+Using the Stocks 2010-2013 table, create 
+a chart to see the monthly change in 
+volumes of stocks, beginning of 2010 
+to the end of 2013.
+Which two consecutive months saw the 
+least fluctuation in increase or 
+decrease?
+a) December 2011 - January 2012
+b) March 2012 - April 2012
+c) November 2012 - December 2012
+d) January 2012 - February 2012
+ 
+Using the Flights table, create a bar 
+chart showing the average of Minutes 
+of Delay per Flight broken down by 
+Carrier Name, and filtered by State 
+to only show Minnesota (MN).
+What was the average minutes of delay 
+per flight for United in Minnesota?
+a) 2,582
+b) 61.74
+c) 62.98
+d) 53.69
+
+Using the Stocks 2010-2013 table, 
+create a chart that shows the percent 
+difference in Volume for each company 
+by year and quarter.
+How many quarters did Biogen Idec 
+show a positive percent difference in 
+volume?
+a) 1
+b) 2
+c) 5
+d) 6

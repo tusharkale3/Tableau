@@ -1,0 +1,122 @@
+Validate two conditions using AND function
+
+Enter age between 10 to 90
+
+You must enter age between 10 to 90.
+
+Citizen age - Anil
+Age = 40
+
+Citizen Anil is eligible for voting
+
+Finding outliers
+
+
+Coefficient of Correlation (R) -1 to +1
+Coefficient of Determination (R square) 0 to +1
+
+R indicates whether the correlation is +ve , -ve or no correlation between two variables X & Y.
+
+R square indicates the strength of the relationship between two numeric variables X & Y. Value close to 1 is always preferred.
+
+
+
+1) Profit vs Sales
+2) Profit vs COGS
+3) Profit vs Marketing
+4) Profit vs Inventory
+5) Profit vs Total expenses
+
+
+Data consolidation - combine data from two different sheets
+
+Pivot table - Aggregation
+
+CTRL T
+
+1) Total profit by State
+2) Total Sales by State
+3) Marketing by Product Name
+4) Inventory by State
+
+1) Sales % by Market size
+2) Profit % by product type
+3) Profit % by Market size
+4) Marketing % by Type
+5) Total expenses % by Market
+6) Margin % by Product type
+
+7) COGS % by Product Name (filter by product type)
+8) Inventory % by Product Name (filter by product type)
+
+100% stacked bar chart
+
+
+Build 100% stacked bar for profit & state. Then add Type on Legends.
+
+Loan of 650000 at an interest rate of 8.5% to be paid back in 15 years. Calculate EMI and total interest paid.
+
+6400.81
+502145
+
+If a person invests 12,00,000 in a bank FD for 11.5 years at an interest rate of 5.75%, what will be maturity value & earning?
+2282472
+1082472
+
+
+A person has invested 12,00,000 in a bank FD for 11.5 years at an interest rate of 5.75%. His maturity amount is 2282472. He is expecting to receive amount 2500000 at the end. Use Goal seek and find possible solutions by changing Invested amount, interest rate & tenure.
+
+
+Scenario manager - 
+
+1. Customer type 1 - home loan required 600000, tenure 7 years, interest rate 8.5%
+2. Customer type 2 - home loan required 900000, tenure 11 years, interest rate 9.5%
+3. Customer type 3 - home loan required 1400000, tenure 17 years, interest rate 10.75%
+4. Customer type 4 - home loan required 1100000, tenure 13.5 years, interest rate 9%
+
+
+In Stock price column, generate random numbers between 31 to 42.
+
+
+
+
+Prediction can be done for numeric or categorical variable. 
+Numeric prediction examples - Sales, Profit, Quantity etc.
+Categorical prediction examples - employee leaving or not, customer buying credit card or not 
+
+Variable on X axis is called Independent variable while variable on Y axis is called Dependent or Response variable. Prediction is always done for Dependent variable using Independent variable values.
+This prediction is performed using Line Equation in the form of Y = mX + C where m is slope (coefficient) and C is intercept.
+
+Line equation
+Margin = (1.2729 * Profit) 
++ 36.687
+
+Using this equation, calculate margin for profit = 250.
+354.912
+356.1849
+
+
+Build scatter plot for following combinations, add linear trend line and find out the equation & R square- 
+1. Marketing vs Inventory
+2. Total expenses vs Inventory
+3. Inventory vs COGS
+
+Solve these following problems on Advertising sheet - 
+
+1. What is the average spending on Facebook?
+2. What is the standard deviation of spending on TV vs Radio?
+3. How many customers have spent more than 50 on Newspaper?
+4. Calculate the correlation between TV & Radio
+5. Calculate the correlation between Newspaper & Facebook
+6. Identify which of these correlations is stronger.
+7. Perform descriptive statistics on each column - TV,Radio, Newspaper & Facebook one by one.
+
+8. Build scatter plot on this data for following combinations - 
+a) Facebook vs Radio
+b) Tv vs Newspaper
+(Add trend line & R square)
+
+9. Assume that this data is collected over 200 days (daily). Using Data Analysis, perform 3 day & 5 day Moving Average on following columns - 
+
+Radio
+Newspaper
